@@ -1,0 +1,54 @@
+
+C:\Users\radha\Downloads\wt\wt lab>git init -b main
+Initialized empty Git repository in C:/Users/radha/Downloads/wt/wt lab/.git/
+
+C:\Users\radha\Downloads\wt\wt lab>git add .
+
+C:\Users\radha\Downloads\wt\wt lab>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   styles.css
+        new file:   wtlab1
+        new file:   wtlab1.html
+        new file:   wtlab2 forgot.html
+        new file:   wtlab2 index.html
+        new file:   wtlab2 reg.html
+
+
+C:\Users\radha\Downloads\wt\wt lab>git commit -m"this is first commit"
+[main (root-commit) c9b55fd] this is first commit
+ 6 files changed, 108 insertions(+)
+ create mode 100644 styles.css
+ create mode 100644 wtlab1
+ create mode 100644 wtlab1.html
+ create mode 100644 wtlab2 forgot.html
+ create mode 100644 wtlab2 index.html
+ create mode 100644 wtlab2 reg.html
+
+C:\Users\radha\Downloads\wt\wt lab>git remote add origin https://github.com/radhamouni/login-page.git
+
+C:\Users\radha\Downloads\wt\wt lab>git push origin main
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (8/8), 1.95 KiB | 500.00 KiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/radhamouni/login-page.git
+ * [new branch]      main -> main
+
+C:\Users\radha\Downloads\wt\wt lab>status
+'status' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\radha\Downloads\wt\wt lab>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\radha\Downloads\wt\wt lab>
+
+C:\Users\radha\Downloads\wt\wt lab>
